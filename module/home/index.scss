@@ -1,0 +1,46 @@
+.homeisnumberone{
+
+    background: #e2e2e2f9;
+    .driver-munber{
+        background-color: white;
+            margin: 0 10%;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #dbdbdb;
+            img{
+                opacity: 0.4;
+            }
+    }
+    .phone-munber {
+        margin: 20px 15% 0 15%;
+        background-color: #bdbdea;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    .home {
+    margin: 0px 15%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    .flex-image {
+        display: flex;
+        padding-bottom: 20px;
+        justify-content: center}
+        .table-Homestay {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .table-Homestay-version {
+            background-color: white;
+            padding: 10px;
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}

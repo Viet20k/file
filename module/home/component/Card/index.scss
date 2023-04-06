@@ -1,0 +1,72 @@
+div#product-management {
+    margin: 0px 10%;
+        table.PageManger-page {
+                width: 100%;
+                border: 1px solid rgba(177, 174, 174, 0.85);
+        
+                tr.fix-table {
+                    border-bottom: 1px solid;
+                }
+        
+                .product-table {
+                    height: 150px;
+                    border-bottom: 1px solid rgba(177, 174, 174, 0.85);
+                    span.anticon.anticon-delete,
+                    span.anticon.anticon-edit{
+                            cursor: pointer;
+                    }
+                    span.anticon.anticon-delete{
+                        color: red;
+                        margin-left: 15px;
+                    }
+                }
+            }
+        
+        .table-more-products {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(151, 150, 150, 0.3);
+                z-index: 2;
+        
+                #toggle {
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 10%;
+                    left: 35%;
+                    /* width: auto; */
+                    width: 30%;
+                    z-index: 3;
+                    background-color: #fff;
+        
+                    .table-toggle {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 20px;
+        
+                        input[type="file"],
+                        button,
+                        input[type="text"] {
+                            /* border-radius: unset; */
+                            margin: 10px 0;
+                        }
+        
+                        button {
+                            margin-bottom: 30px;
+                        }
+                    }
+        
+                }
+            }
+        
+        button.show-table {
+                background: #1890ff;
+                border: unset;
+                color: #fff;
+                /* padding: 10px; */
+                margin: 10px 0px;
+                border-radius: 4px;
+            }
+}

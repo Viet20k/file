@@ -1,0 +1,39 @@
+.navbar-wrap {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    .navbar-wrap-childe{
+        display: flex;
+            width: 70%;
+            justify-content: space-around;
+            align-items: center;
+    .navbar-item {
+            font-weight: bold;
+            cursor: pointer;
+        margin: 0px 5%;
+        }
+        button.navbar-item {
+            border: 0;
+            background: white;
+        }
+        .item-manager,
+        .item-logo {
+            color: #3ca3ff;
+        }
+    
+        .item-logo {
+           
+            font-size: 24px;
+        }
+    }
+   
+}
+.search-item{
+    display: flex;
+    align-items: center;
+    span.anticon.anticon-user,
+    span.anticon.anticon-shopping-cart{
+        margin-left: 15px;
+    }
+}
